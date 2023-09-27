@@ -5,7 +5,7 @@ python:
   - "3.3"
   - "3.4"
   - "pypy"
-# command to install dependencies
+  command to install dependencies
 install:
   - "pip install coveralls --use-mirrors"
   - "pip install nose --use-mirrors"
@@ -18,3 +18,4 @@ script:
 # after success
 after_success:
   coveralls
+ 
